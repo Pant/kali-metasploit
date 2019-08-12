@@ -1,2 +1,2 @@
 # kali-metasploit
-Clean Kali Installation-Updat from official Dockerfile with Metasploit official package.
+Clean Kali Installation-Update from official Dockerfile with Metasploit official package.
