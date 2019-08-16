@@ -10,7 +10,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.version=$VERSION \
       org.label-schema.name='Kali Linux' \
-      org.label-schema.description='Official Kali Linux docker image' \
+      org.label-schema.description='Unfficial Kali Linux docker image with Metasploit by Pant' \
       org.label-schema.usage='https://www.kali.org/news/official-kali-linux-docker-images/' \
       org.label-schema.url='https://www.kali.org/' \
       org.label-schema.vendor='Offensive Security' \
@@ -20,7 +20,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.debug='docker logs $CONTAINER' \
       io.github.offensive-security.docker.dockerfile="Dockerfile" \
       io.github.offensive-security.license="GPLv3" \
-      MAINTAINER="Steev Klimaszewski <steev@kali.org>"
+      MAINTAINER="Panteleimon Sarantos <pantelis [dot] fedora [at] gmail.com>"
 RUN echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" > /etc/apt/sources.list && \
     echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
 ENV DEBIAN_FRONTEND noninteractive
